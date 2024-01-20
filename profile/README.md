@@ -6,15 +6,24 @@ This will be a valuable resource for me as I study for some Platform Engineering
 
 ## About the Cluster
 
-My cluster is five Raspberry Pi 4B 8GBs housed in a Pico 5H. I've rolled my own clusters in the past and found the physical details of cable management, power distribution, ventilation, etc aggravating, so I figured it would be worth some cash to have someone else figure out those details for me.
+My cluster is built around a PicoCluster 10H; I've rolled my own clusters in the past and found the physical details of cable management, power distribution, ventilation, etc aggravating, so I figured it would be worth some cash to have someone else figure out those details for me.
+
+I plan to deploy the following SBCs:
+
+- 5 Raspberry Pi 4B 8GB
+- 1-2 Raspberry Pi 4B 4GB
+- 2 Rock Pi X
+- 1-2 Raspberry Pi 3B
+
+Thus I'll have somewhat of a mixture of architectures, node CPU power, and node memory.
 
 ## General Plan and Repository Structure
 
-- **[Ansible](https://github.com/goldentooth/ansible)**: I'll use Ansible for configuration management on the nodes and setting up Kubernetes.
+- **[Cluster](https://github.com/goldentooth/cluster)**: I'll use Ansible for configuration management on the nodes and setting up Kubernetes.
   - Basic OS configuration (users, groups, unattended upgrades, etc)
   - Kubernetes installation and cluster configuration
   - Kubernetes cluster resources (namespaces, etc)
-- **[ArgoCD](https://github.com/goldentooth/argocd)**: App-of-Apps GitOps repository. I would probably set it so that many or most of these apps are disabled at any given time, except when I'm doing targeted learning that involves them.
+- **[GitOps](https://github.com/goldentooth/gitops)**: App-of-Apps GitOps repository using ArgoCD. I would probably set it so that many or most of these apps are disabled at any given time, except when I'm doing targeted learning that involves them.
   - Prometheus
   - Grafana
   - Alertmanager
@@ -37,4 +46,9 @@ My cluster is five Raspberry Pi 4B 8GBs housed in a Pico 5H. I've rolled my own 
   - Use the Kubeconfig
   - Execute some Ansible playbook
   - Edit the Ansible vault
-
+- **[CloudOps](https://github.com/goldentooth/cloudops)**: AWS, LetsEncrypt, and other resources that are hosted in the greater cloud (as opposed to my fun-sized cloud):
+  - AWS Route53 record(s) related to the cluster
+  - AWS IAM resources
+  - AWS SSM Parameter Store parameters
+  - AWS CloudFront distribution?
+  - ACME/LetsEncrypt certificates
