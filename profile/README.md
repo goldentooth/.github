@@ -42,6 +42,7 @@ Thus I'll have somewhat of a mixture of architectures, node CPU power, and node 
   - Cert-Manager
   - Open Policy Agent
   - Harbor (as a Proxy cache)
+  - VictoriaMetrics
 - **[Bash](https://github.com/goldentooth/bash)**: I'll write some helper scripts in Bash, installable with `bpkg`, to ease some of the common operations. Since I'm studying for certifications, I'm going to continue to type long commands out in full, but I'll add some scripts for selecting kubeconfigs and stuff.
   - Use the Kubeconfig
   - Execute some Ansible playbook
