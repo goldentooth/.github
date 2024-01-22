@@ -6,16 +6,7 @@ This will be a valuable resource for me as I study for some Platform Engineering
 
 ## About the Cluster
 
-My cluster is built around a PicoCluster 10H; I've rolled my own clusters in the past and found the physical details of cable management, power distribution, ventilation, etc aggravating, so I figured it would be worth some cash to have someone else figure out those details for me.
-
-I plan to deploy the following SBCs:
-
-- 5 Raspberry Pi 4B 8GB
-- 1-2 Raspberry Pi 4B 4GB
-- 2 Rock Pi X
-- 1-2 Raspberry Pi 3B
-
-Thus I'll have somewhat of a mixture of architectures, node CPU power, and node memory.
+My cluster is built around a PicoCluster 10H with ten Raspberry Pi 4B 8GB; I've rolled my own clusters in the past and found the physical details of cable management, power distribution, ventilation, etc aggravating, so I figured it would be worth some cash to have someone else figure out those details for me.
 
 ## General Plan and Repository Structure
 
@@ -39,6 +30,8 @@ Thus I'll have somewhat of a mixture of architectures, node CPU power, and node 
   - Nginx
   - RabbitMQ
   - Kafka
+  - External-DNS
+  - MetalLB
   - Cert-Manager
   - Open Policy Agent
   - Harbor (as a Proxy cache)
