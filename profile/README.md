@@ -13,7 +13,7 @@ My cluster is built around a PicoCluster 10H with ten Raspberry Pi 4B 8GB; I've 
 - **[Cluster](https://github.com/goldentooth/cluster)**: I'll use Ansible for configuration management on the nodes and setting up Kubernetes.
   - Basic OS configuration (users, groups, unattended upgrades, etc)
   - Kubernetes installation and cluster configuration
-  - Kubernetes cluster resources (namespaces, etc)
+  - Kubernetes cluster basic resources (namespaces, etc)
 - **[GitOps](https://github.com/goldentooth/gitops)**: App-of-Apps GitOps repository using ArgoCD. I would probably set it so that many or most of these apps are disabled at any given time, except when I'm doing targeted learning that involves them.
   - Prometheus
   - Grafana
@@ -37,6 +37,8 @@ My cluster is built around a PicoCluster 10H with ten Raspberry Pi 4B 8GB; I've 
   - Harbor (as a Proxy cache)
   - VictoriaMetrics
 - **[Bash](https://github.com/goldentooth/bash)**: I'll write some helper scripts in Bash, installable with `bpkg`, to ease some of the common operations. Since I'm studying for certifications, I'm going to continue to type long commands out in full, but I'll add some scripts for selecting kubeconfigs and stuff.
-  - Use the Kubeconfig
-  - Execute some Ansible playbook
   - Edit the Ansible vault
+  - Prepare the cluster (e.g. `raspi-config`, hostnames, disabling swap, etc)
+  - Set up the cluster (and reset it)
+  - Retrieve and install the Kubeconfig
+  - Etc.
