@@ -40,9 +40,3 @@ My cluster is built around a PicoCluster 10H with ten Raspberry Pi 4B 8GB; I've 
   - Use the Kubeconfig
   - Execute some Ansible playbook
   - Edit the Ansible vault
-- **[CloudOps](https://github.com/goldentooth/cloudops)**: AWS, LetsEncrypt, and other resources that are hosted in the greater cloud (as opposed to my fun-sized cloud):
-  - AWS Route53 record(s) related to the cluster
-  - AWS IAM resources
-  - AWS SSM Parameter Store parameters
-  - AWS CloudFront distribution?
-  - ACME/LetsEncrypt certificates
