@@ -14,7 +14,7 @@ My cluster is built around a PicoCluster 10H with ten Raspberry Pi 4B 8GB; I've 
   - Basic OS configuration (users, groups, unattended upgrades, etc)
   - Kubernetes installation and cluster configuration
   - Kubernetes cluster basic resources (namespaces, etc)
-- **[GitOps](https://github.com/goldentooth/gitops)**: App-of-Apps GitOps repository using ArgoCD. I would probably set it so that many or most of these apps are disabled at any given time, except when I'm doing targeted learning that involves them.
+- **[Incubator](https://github.com/goldentooth/incubator)**: App-of-Apps GitOps repository for Argo CD holding applications that I'm not yet ready to spin off into individualized GitOps repositories. Things that may appear here at one time or another:
   - Prometheus
   - Grafana
   - Alertmanager
