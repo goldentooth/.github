@@ -31,7 +31,6 @@ My cluster is built around a PicoCluster 10H with ten Raspberry Pi 4B 8GB; I've 
   - RabbitMQ
   - Kafka
   - External-DNS
-  - MetalLB
   - Cert-Manager
   - Open Policy Agent
   - Harbor (as a Proxy cache)
@@ -44,3 +43,5 @@ My cluster is built around a PicoCluster 10H with ten Raspberry Pi 4B 8GB; I've 
   - Set up the cluster (and reset it)
   - Retrieve and install the Kubeconfig
   - Etc.
+- A number of GitOps repositories for deploying specific applications/ecosystems within Kubernetes:
+  - **[MetalLB](https://github.com/goldentooth/metallb)**: To achieve parity with cloud services for painless load balancer deployment
