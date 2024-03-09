@@ -10,11 +10,11 @@ My cluster is built around a PicoCluster 10H with ten Raspberry Pi 4B 8GB; I've 
 
 ## General Plan and Repository Structure
 
-- **[Cluster](https://github.com/goldentooth/cluster)**: I use Ansible for configuration management on the nodes and setting up Kubernetes and Argo CD
-  - Basic OS configuration (users, groups, unattended upgrades, etc)
-  - Load balancer installation and configuration
-  - Kubernetes installation and configuration
-  - Argo CD installation and configuration
+- **[Cluster](https://github.com/goldentooth/cluster)**: I use Ansible for configuration management on the nodes, including:
+  - [Raspberry Pi OS](https://www.raspberrypi.com/software/)
+  - [HAProxy](https://www.haproxy.org)
+  - [Kubernetes](https://kubernetes.io)
+  - [Argo CD](https://argoproj.github.io/cd/)
 - **[Incubator](https://github.com/goldentooth/incubator)**: App-of-Apps GitOps repository for Argo CD holding applications that I'm not yet ready to spin off into individualized GitOps repositories. Things that may appear here at one time or another:
   - Prometheus
   - Grafana
