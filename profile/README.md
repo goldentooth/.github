@@ -6,7 +6,7 @@ This will be a valuable resource for me as I study for some Platform Engineering
 
 ## About the Cluster
 
-My cluster is built around a PicoCluster 10H with ten Raspberry Pi 4B 8GB; I've rolled my own clusters in the past and found the physical details of cable management, power distribution, ventilation, etc aggravating, so I figured it would be worth some cash to have someone else figure out those details for me.
+My cluster is built around a PicoCluster 10H with ten Raspberry Pi 4B (8GB RAM, 128GB SD).
 
 ## Repository Structure
 
