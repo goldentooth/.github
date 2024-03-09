@@ -15,7 +15,8 @@ My cluster is built around a PicoCluster 10H with ten Raspberry Pi 4B 8GB; I've 
   - [HAProxy](https://www.haproxy.org)
   - [Kubernetes](https://kubernetes.io)
   - [Argo CD](https://argoproj.github.io/cd/)
-- **[Incubator](https://github.com/goldentooth/incubator)**: App-of-Apps GitOps repository for Argo CD holding applications that I'm not yet ready to spin off into individualized GitOps repositories. Things that may appear here at one time or another:
+- **[Incubator](https://github.com/goldentooth/incubator)**: App-of-Apps GitOps repository for applications under development.
+  <!--
   - Prometheus
   - Grafana
   - Alertmanager
@@ -36,13 +37,8 @@ My cluster is built around a PicoCluster 10H with ten Raspberry Pi 4B 8GB; I've 
   - Open Policy Agent
   - Harbor (as a Proxy cache)
   - VictoriaMetrics
-- **[Kubernetes, the _Excruciating_ Way](https://github.com/goldentooth/kubernetes-the-excruciating-way)**: A low-level, step-by-step, thoroughly-documented descent into Hell.
-- **[Kubespray](https://github.com/goldentooth/kubespray)**: I initially deployed Kubernetes via Kubespray, and still crib notes from it from time to time :eyes:
-- **[Bash](https://github.com/goldentooth/bash)**: I'll write some helper scripts in Bash, installable with `bpkg`, to ease some of the common operations. Since I'm studying for certifications, I'm going to continue to type long commands out in full, but I'll add some scripts for selecting kubeconfigs and stuff.
-  - Edit the Ansible vault
-  - Prepare the cluster (e.g. `raspi-config`, hostnames, disabling swap, etc)
-  - Set up the cluster (and reset it)
-  - Retrieve and install the Kubeconfig
-  - Etc.
+  -->
+- **[Kubernetes, the _Excruciating_ Way](https://github.com/goldentooth/kubernetes-the-excruciating-way)**: Basically a development journal for my work on this cluster.
+- **[Bash](https://github.com/goldentooth/bash)**: Helper scripts, written in Bash.
 - A number of GitOps repositories for deploying specific applications/ecosystems within Kubernetes:
   - **[MetalLB](https://github.com/goldentooth/metallb)**: To achieve parity with cloud services for painless load balancer deployment
