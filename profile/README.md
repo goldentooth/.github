@@ -6,7 +6,7 @@ This will be a valuable resource for me as I study for some Platform Engineering
 
 ## About the Cluster
 
-My cluster is built around a PicoCluster 10H with ten Raspberry Pi 4B (8GB RAM, 128GB SD).
+My cluster is built around a PicoCluster 10H with ten Raspberry Pi 4B (8GB RAM, 128GB SD). The first node runs HAProxy, and the other nine form a Kubernetes cluster with three control plane nodes and six worker nodes.
 
 ## Repository Structure
 
