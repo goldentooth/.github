@@ -19,8 +19,8 @@ My cluster is built around a PicoCluster 10H with ten Raspberry Pi 4B (8GB RAM, 
 - **[Kubernetes, the _Excruciating_ Way](https://github.com/goldentooth/kubernetes-the-excruciating-way)**: Basically a development journal for my work on this cluster.
 - **[Bash](https://github.com/goldentooth/bash)**: Helper scripts, written in Bash.
 - A number of GitOps repositories for deploying specific applications/ecosystems within Kubernetes:
-  - **[httpbin](https://github.com/goldentooth/httpbin)**: A Go port of `httpbin`, a cool little server for testing and debugging
-  - **[MetalLB](https://github.com/goldentooth/metallb)**: To achieve parity with cloud services for painless load balancer deployment
-  - **[Prometheus Node Exporter](https://github.com/goldentooth/prometheus-node-exporter)**: For gathering information about cluster nodes
-  - **[ExternalDNS](https://github.com/goldentooth/external-dns)**: To create DNS records for load balancer services
+  - **[httpbin](https://github.com/goldentooth/httpbin)**: A Go port of `httpbin`, a cool little server for testing and debugging.
+  - **[MetalLB](https://github.com/goldentooth/metallb)**: To achieve parity with cloud services for painless load balancer deployment.
+  - **[Prometheus Node Exporter](https://github.com/goldentooth/prometheus-node-exporter)**: For gathering information about cluster nodes.
+  - **[ExternalDNS](https://github.com/goldentooth/external-dns)**: To create DNS records for load balancer services.
 - **[Gitops Template](https://github.com/goldentooth/gitops-template)**: A template repository for the ApplicationSet.
