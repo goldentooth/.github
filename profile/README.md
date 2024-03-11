@@ -10,7 +10,7 @@ My cluster is built around a PicoCluster 10H with ten Raspberry Pi 4B (8GB RAM, 
 
 ## Repository Structure
 
-- **[Cluster](https://github.com/goldentooth/cluster)**: I use Ansible for configuration management on the nodes, including:
+- **[Cluster](https://github.com/goldentooth/cluster)**: I use Ansible for configuration management on the nodes (and some Terraform for AWS resources), including:
   - [Raspberry Pi OS](https://www.raspberrypi.com/software/)
   - [HAProxy](https://www.haproxy.org)
   - [Kubernetes](https://kubernetes.io)
