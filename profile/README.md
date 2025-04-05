@@ -26,7 +26,7 @@ My cluster is built around a PicoCluster 10H with ten Raspberry Pi 4B (8GB RAM, 
   - [Kubernetes](https://kubernetes.io)
   - [Argo CD](https://argoproj.github.io/cd/)
   - [Slurm](http://slurm.schedmd.com)
-- **[Kubernetes, the _Excruciating_ Way](https://github.com/goldentooth/kubernetes-the-excruciating-way)**: Basically a development journal for my work on this cluster.
+- **[Blog](https://github.com/goldentooth/blog)**: Blog, formerly named **Kubernetes, the _Excruciating_ Way** (Hugo, Terraform, GitHub Actions). Read it at https://goldentooth.net/ !
 - **[Bash](https://github.com/goldentooth/bash)**: Helper scripts, written in Bash.
 - A number of GitOps repositories for deploying specific applications/ecosystems within Kubernetes via Argo CD:
   - **[httpbin](https://github.com/goldentooth/httpbin)**: A Go port of `httpbin`, a cool little server for testing and debugging.
