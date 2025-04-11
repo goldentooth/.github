@@ -13,13 +13,15 @@ Currently, it has the following general structure:
   - HAProxy for high availability of the Kubernetes control plane nodes
   - Nginx as a general-purpose HTTP/S proxy
   - NFS server for shared data
+  - Consul client (in progress)
 - 3 "leader" nodes: Bettley, Cargyll, and Dalt
   - Kubernetes control plane
   - Slurm controller (Bettley) and fallback (Cargyll, Dayne)
-  - Consul leader (Bettley) and fallback (Cargyll, Dayne)
+  - Consul server (Bettley) and fallback (Cargyll, Dayne) (in progress)
 - 6 "follower" nodes: Erenford, Fenn, Gardener, Harlton, Inchfield, and Jast
   - Kubernetes worker node
   - Slurm compute node
+  - Consul client (in progress)
 
 ## Repository Structure
 
@@ -29,7 +31,7 @@ Currently, it has the following general structure:
   - [Kubernetes](https://kubernetes.io)
   - [Argo CD](https://argoproj.github.io/cd/)
   - [Slurm](http://slurm.schedmd.com)
-- **[Blog](https://github.com/goldentooth/blog)**: Blog, formerly named **Kubernetes, the _Excruciating_ Way** (Mdbook, Terraform, GitHub Actions). Read it at https://goldentooth.net/ !
+- **[Blog](https://github.com/goldentooth/blog)**: Blog, formerly named **Kubernetes, the _Excruciating_ Way** (Mdbook, Terraform, GitHub Actions). Read it at https://goldentooth.net/ ! 
 - **[Bash](https://github.com/goldentooth/bash)**: Helper scripts, written in Bash.
 - A number of GitOps repositories for deploying specific applications/ecosystems within Kubernetes via Argo CD:
   - **[httpbin](https://github.com/goldentooth/httpbin)**: A Go port of `httpbin`, a cool little server for testing and debugging.
