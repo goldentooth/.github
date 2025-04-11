@@ -2,21 +2,24 @@
 
 GoldenTooth is my Pi Bramble (Cluster), which I'm building in order to have a fun-sized DevOps/MLOps playground without any important services or data.
 
-This will be a valuable resource for me as I study for some Platform Engineering/SRE-related certifications, MLOps/HPC, etc. I'm releasing everything I create here under an [Unlicense](https://choosealicense.com/licenses/unlicense/) in the hopes that it proves useful to other engineers.
+I'm building this cluster not to host anything in particular, but to act as something as a Chaos Zoo, where I just deploy things and then try to destroy them to learn about their behavior. No service has, or will have, any purpose other than as a way of learning about the other services.
 
 ## About the Cluster
 
 My cluster is built around a PicoCluster 10H with ten Raspberry Pi 4B (8GB RAM, 128GB SD).
-  - **Allyrion**: HAProxy, NFS server.
-  - **Bettley**: Kubernetes control plane, Slurm controller.
-  - **Cargyll**: Kubernetes control plane, Slurm backup controller.
-  - **Dalt**: Kubernetes control plane, Slurm backup controller.
-  - **Erenford**: Kubernetes worker, Slurm compute.
-  - **Fenn**: Kubernetes worker, Slurm compute.
-  - **Gardener**: Kubernetes worker, Slurm compute.
-  - **Harlton**: Kubernetes worker, Slurm compute.
-  - **Inchfield**: Kubernetes worker, Slurm compute.
-  - **Jast**: Kubernetes worker, Slurm compute.
+
+Currently, it has the following general structure:
+- 1 load balancer/proxy node: Allyrion
+  - HAProxy for high availability of the Kubernetes control plane nodes
+  - Nginx as a general-purpose HTTP/S proxy
+  - NFS server for shared data
+- 3 "leader" nodes: Bettley, Cargyll, and Dalt
+  - Kubernetes control plane
+  - Slurm controller (Bettley) and fallback (Cargyll, Dayne)
+  - Consul leader (Bettley) and fallback (Cargyll, Dayne)
+- 6 "follower" nodes: Erenford, Fenn, Gardener, Harlton, Inchfield, and Jast
+  - Kubernetes worker node
+  - Slurm compute node
 
 ## Repository Structure
 
@@ -33,3 +36,6 @@ My cluster is built around a PicoCluster 10H with ten Raspberry Pi 4B (8GB RAM, 
   - **[MetalLB](https://github.com/goldentooth/metallb)**: To achieve parity with cloud services for painless load balancer deployment.
   - **[Prometheus Node Exporter](https://github.com/goldentooth/prometheus-node-exporter)**: For gathering information about cluster nodes.
   - **[ExternalDNS](https://github.com/goldentooth/external-dns)**: To create DNS records for load balancer services.
+
+## Permissions
+I'm releasing everything I create here under an [Unlicense](https://choosealicense.com/licenses/unlicense/) in the hopes that it proves interesting or useful to other engineers.
