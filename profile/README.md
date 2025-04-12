@@ -16,8 +16,9 @@ Currently, it has the following general structure:
   - Consul client (in progress)
 - 3 "leader" nodes: Bettley, Cargyll, and Dalt
   - Kubernetes control plane
-  - Slurm controller leader (Bettley) and fallback (Cargyll, Dayne)
-  - Consul server leader (Bettley) and fallback (Cargyll, Dayne)
+  - Slurm controllers (leader and fallbacks)
+  - Consul servers (leader and fallbacks)
+  - Vault servers (leader and fallbacks)
 - 6 "follower" nodes: Erenford, Fenn, Gardener, Harlton, Inchfield, and Jast
   - Kubernetes worker node
   - Slurm compute node
