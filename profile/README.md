@@ -16,12 +16,12 @@ Currently, it has the following general structure:
   - Consul client (in progress)
 - 3 "leader" nodes: Bettley, Cargyll, and Dalt
   - Kubernetes control plane
-  - Slurm controller (Bettley) and fallback (Cargyll, Dayne)
-  - Consul server (Bettley) and fallback (Cargyll, Dayne) (in progress)
+  - Slurm controller leader (Bettley) and fallback (Cargyll, Dayne)
+  - Consul server leader (Bettley) and fallback (Cargyll, Dayne)
 - 6 "follower" nodes: Erenford, Fenn, Gardener, Harlton, Inchfield, and Jast
   - Kubernetes worker node
   - Slurm compute node
-  - Consul client (in progress)
+  - Consul client
 
 ## Recent Things
 
@@ -45,6 +45,7 @@ Currently, it has the following general structure:
   - [Kubernetes](https://kubernetes.io)
   - [Argo CD](https://argoproj.github.io/cd/)
   - [Slurm](http://slurm.schedmd.com)
+  - [Consul](https://www.consul.io)
 - **[Blog](https://github.com/goldentooth/blog)**: Blog, formerly named **Kubernetes, the _Excruciating_ Way** (Mdbook, Terraform, GitHub Actions). Read it at https://blog.goldentooth.net/ ! 
 - **[Bash](https://github.com/goldentooth/bash)**: Helper scripts, written in Bash.
 - A number of GitOps repositories for deploying specific applications/ecosystems within Kubernetes via Argo CD:
