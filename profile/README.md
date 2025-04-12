@@ -13,7 +13,8 @@ Currently, it has the following general structure:
   - HAProxy for high availability of the Kubernetes control plane nodes
   - Nginx as a general-purpose HTTP/S proxy
   - NFS server for shared data
-  - Consul client (in progress)
+  - Consul client
+  - Envoy for edge-routing services
 - 3 "leader" nodes: Bettley, Cargyll, and Dalt
   - Kubernetes control plane
   - Slurm controllers (leader and fallbacks)
@@ -47,6 +48,8 @@ Currently, it has the following general structure:
   - [Argo CD](https://argoproj.github.io/cd/)
   - [Slurm](http://slurm.schedmd.com)
   - [Consul](https://www.consul.io)
+  - [Vault](https://vaultproject.io/)
+  - [Envoy](https://www.envoyproxy.io/)
 - **[Blog](https://github.com/goldentooth/blog)**: Blog, formerly named **Kubernetes, the _Excruciating_ Way** (Mdbook, Terraform, GitHub Actions). Read it at https://blog.goldentooth.net/ ! 
 - **[Bash](https://github.com/goldentooth/bash)**: Helper scripts, written in Bash.
 - A number of GitOps repositories for deploying specific applications/ecosystems within Kubernetes via Argo CD:
