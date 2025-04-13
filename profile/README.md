@@ -47,7 +47,7 @@ Currently, it has the following general structure:
 
 - **[Cluster](https://github.com/goldentooth/cluster)**: I use Ansible for configuration management on the nodes (and some Terraform for AWS resources), including:
 - **[Clog](https://github.com/goldentooth/clog)**: AKA Changelog. This is a series of articles/rants/notes to myself about each incremental change, why I did it, what remains undone, etc. Probably not of interest to anybody, but you can read it at https://clog.goldentooth.net/ ! _This is not hosted on GoldenTooth itself, but by GitHub Pages._
-- **[Bash](https://github.com/goldentooth/bash)**: Helper scripts, written in Bash.
+- **[Bash](https://github.com/goldentooth/bash)**: Helper scripts for remotely administering the cluster, written in Bash.
 - A number of GitOps repositories for deploying specific applications/ecosystems within Kubernetes via Argo CD:
   - **[httpbin](https://github.com/goldentooth/httpbin)**: A Go port of `httpbin`, a cool little server for testing and debugging.
   - **[MetalLB](https://github.com/goldentooth/metallb)**: To achieve parity with cloud services for painless load balancer deployment.
