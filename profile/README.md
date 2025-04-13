@@ -46,22 +46,27 @@ Currently, it has the following general structure:
 ## Repository Structure
 
 - **[Cluster](https://github.com/goldentooth/cluster)**: I use Ansible for configuration management on the nodes (and some Terraform for AWS resources), including:
-  - [Raspberry Pi OS](https://www.raspberrypi.com/software/)
-  - [HAProxy](https://www.haproxy.org)
-  - [Kubernetes](https://kubernetes.io)
-  - [Argo CD](https://argoproj.github.io/cd/)
-  - [Slurm](http://slurm.schedmd.com)
-  - [Consul](https://www.consul.io)
-  - [Vault](https://vaultproject.io/)
-  - [Envoy](https://www.envoyproxy.io/)
-  - [Nomad](https://www.nomadproject.io)
-- **[Blog](https://github.com/goldentooth/blog)**: Blog, formerly named **Kubernetes, the _Excruciating_ Way** (Mdbook, Terraform, GitHub Actions). Read it at https://blog.goldentooth.net/ ! 
+- **[Clog](https://github.com/goldentooth/clog)**: Clog (Changelog), a series of articles/rants/notes to myself about each incremental change, why I did it, what remains undone, etc. Probably not of interest to anybody, but you can read it at https://clog.goldentooth.net/ ! _This is not hosted on GoldenTooth itself, but by GitHub Pages._
 - **[Bash](https://github.com/goldentooth/bash)**: Helper scripts, written in Bash.
 - A number of GitOps repositories for deploying specific applications/ecosystems within Kubernetes via Argo CD:
   - **[httpbin](https://github.com/goldentooth/httpbin)**: A Go port of `httpbin`, a cool little server for testing and debugging.
   - **[MetalLB](https://github.com/goldentooth/metallb)**: To achieve parity with cloud services for painless load balancer deployment.
   - **[Prometheus Node Exporter](https://github.com/goldentooth/prometheus-node-exporter)**: For gathering information about cluster nodes.
   - **[ExternalDNS](https://github.com/goldentooth/external-dns)**: To create DNS records for load balancer services.
+
+## Software/Services
+
+Here's a list of some of the major services/tools/applications I have installed and running on GoldenTooth. This list will expand greatly.
+
+- [Raspberry Pi OS](https://www.raspberrypi.com/software/)
+- [HAProxy](https://www.haproxy.org)
+- [Kubernetes](https://kubernetes.io)
+- [Argo CD](https://argoproj.github.io/cd/)
+- [Slurm](http://slurm.schedmd.com)
+- [Consul](https://www.consul.io)
+- [Vault](https://vaultproject.io/)
+- [Envoy](https://www.envoyproxy.io/)
+- [Nomad](https://www.nomadproject.io)
 
 ## Permissions
 I'm releasing everything I create here under an [Unlicense](https://choosealicense.com/licenses/unlicense/) in the hopes that it proves interesting or useful to other engineers.
