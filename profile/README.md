@@ -34,10 +34,10 @@ Currently, it has the following general structure:
 - I set up Consul. Consul will be useful in a few different ways, but I also think that service discovery will provide interesting information for visualization (more later).
 - I set up Vault to act as a local credential store.
 - I was going to set up Envoy as a global ingress, using Consul for route discovery. The hope here is an extremely dynamic mapping from domain names to services within the intranet. Then I think I can do something like visualize requests and show how they're routed to different nodes at different times. Visualize e.g. different load balancer algorithms, visualize failover, etc. Unfortunately, there's a conflict between Pi kernel configuration and Envoy build settings, so I'm skipping this for the time being.
+- I set up Nomad with three servers and six clients and a self-configuring cluster. Setting it up to self-configure with Consul is going to require some additional work, unfortunately. Currently, the cluster doesn't have any jobs running.
 
 ## The (Rough) Roadmap
 
-- Set up Nomad.
 - Set up existing services to speak to Consul for service discovery. So we'll be able to e.g. see services announce themselves, see health checks, etc.
 - Set up Authelia as a more secure front door. I would like to set up an account system eventually and grant privileges. Like, I don't _want_ people to destroy my cluster, not substantial privileges, but to be able to poke around a bit. Presumably read-only. See graphs, visualizations, etc.
 - Tear down existing Nginx proxy. Nginx served its purpose but I'm fairly comfortable with it and I can use it in more interesting ways within the cluster. A couple of server blocks isn't that interesting. I wanna get weird with Nginx.
