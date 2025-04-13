@@ -17,13 +17,15 @@ Currently, it has the following general structure:
   - Envoy for edge-routing services
 - 3 "leader" nodes: Bettley, Cargyll, and Dalt
   - Kubernetes control plane
-  - Slurm controllers (leader and fallbacks)
-  - Consul servers (leader and fallbacks)
-  - Vault servers (leader and fallbacks)
+  - Slurm controllers
+  - Consul servers
+  - Vault servers
+  - Nomad servers
 - 6 "follower" nodes: Erenford, Fenn, Gardener, Harlton, Inchfield, and Jast
-  - Kubernetes worker node
-  - Slurm compute node
-  - Consul client
+  - Kubernetes worker nodes
+  - Slurm compute nodes
+  - Consul clients
+  - Nomad clients
 
 ## Recent Things
 
@@ -50,6 +52,7 @@ Currently, it has the following general structure:
   - [Consul](https://www.consul.io)
   - [Vault](https://vaultproject.io/)
   - [Envoy](https://www.envoyproxy.io/)
+  - [Nomad](https://www.nomadproject.io)
 - **[Blog](https://github.com/goldentooth/blog)**: Blog, formerly named **Kubernetes, the _Excruciating_ Way** (Mdbook, Terraform, GitHub Actions). Read it at https://blog.goldentooth.net/ ! 
 - **[Bash](https://github.com/goldentooth/bash)**: Helper scripts, written in Bash.
 - A number of GitOps repositories for deploying specific applications/ecosystems within Kubernetes via Argo CD:
