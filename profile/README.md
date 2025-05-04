@@ -1,4 +1,5 @@
-# GoldenTooth
+# 🦷 GoldenTooth 🦷
+( <span style="display:inline-block; min-width: 2em;">🌀</span>[ndouglas](https://github.com/ndouglas/) | <span style="display:inline-block; min-width: 2em;">🌉</span>[bitterbridge](https://github.com/bitterbridge/) | <span style="display:inline-block; min-width: 2em;">️‍🔥</span>[hellholt](https://github.com/hellholt/) | <span style="display:inline-block; min-width: 2em;">🦷</span>[goldentooth](https://github.com/goldentooth/) )
 
 GoldenTooth is my Pi Bramble (Cluster), which I'm building in order to have a fun-sized DevOps/MLOps playground without any important services or data.
 
@@ -43,7 +44,25 @@ Currently, it has the following general structure:
 - Tear down existing Nginx proxy. Nginx served its purpose but I'm fairly comfortable with it and I can use it in more interesting ways within the cluster. A couple of server blocks isn't that interesting. I wanna get weird with Nginx.
 - Work on per-node pages, e.g. `https://node-name.goldentooth.net` that will show individual node status, logs, etc. Not sure what to do here yet -- currently they're static HTML. Might dynamically update them on a cron job. I could write a script that just gathers a bunch of figures, dumps them into JSON, and the HTML loads the JSON via JS and uses that to populate the page. Simple, clean, very flexible.
 
-## Repository Structure
+## Repositories
+- 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
+- ❓ [ansible](https://github.com/goldentooth/ansible): Basic setup for my Pi bramble/cluster.
+- ❓ [bash](https://github.com/goldentooth/bash): Bash scripts for interacting with GoldenTooth, my Pi Bramble/Cluster
+- ❓ [incubator](https://github.com/goldentooth/incubator): My app-of-apps pattern ArgoCD GitOps repository.
+- ❓ [metallb](https://github.com/goldentooth/metallb): MetalLB ArgoCD application
+- ❓ [httpbin](https://github.com/goldentooth/httpbin): `httpbingo` Argo CD application
+- ❓ [prometheus-node-exporter](https://github.com/goldentooth/prometheus-node-exporter): Argo CD application
+- ❓ [gitops-template](https://github.com/goldentooth/gitops-template): A template for my GitOps repositories.
+- ❓ [external-dns](https://github.com/goldentooth/external-dns): ExternalDNS GitOps repository.
+- ❓ [sealed-secrets](https://github.com/goldentooth/sealed-secrets): SealedSecrets GitOps repository.
+- ❓ [external-secrets](https://github.com/goldentooth/external-secrets): GitOps repository for ExternalSecrets
+- ❓ [clog](https://github.com/goldentooth/clog): Dev blog, formerly known as **Kubernetes, the _Excruciating_ Way**
+- ❓ [asoiaf-noble-house-images](https://github.com/goldentooth/asoiaf-noble-house-images): Images derived from arms from noble houses of ASoIaF.
+- ❓ [pulse](https://github.com/goldentooth/pulse): Node network effects visualized as a heartbeat.
+- 🚜 [terraform](https://github.com/goldentooth/terraform): General Terraform Infrastructure-as-Code for Goldentooth
+
+
+## Repository Structure (Old)
 
 - **[Cluster](https://github.com/goldentooth/cluster)**: I use Ansible for configuration management on the nodes (and some Terraform for AWS resources), including:
 - **[Clog](https://github.com/goldentooth/clog)**: AKA Changelog. This is a series of articles/rants/notes to myself about each incremental change, why I did it, what remains undone, etc. Probably not of interest to anybody, but you can read it at https://clog.goldentooth.net/ ! _This is not hosted on GoldenTooth itself, but by GitHub Pages._
