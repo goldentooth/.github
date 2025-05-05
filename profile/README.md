@@ -48,7 +48,6 @@ Currently, it has the following general structure:
 - 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
 - 🧰 [ansible](https://github.com/goldentooth/ansible): Basic setup for my Pi bramble/cluster.
 - 🐚 [bash](https://github.com/goldentooth/bash): Bash scripts for interacting with GoldenTooth, my Pi Bramble/Cluster
-- ❓ [incubator](https://github.com/goldentooth/incubator): My app-of-apps pattern ArgoCD GitOps repository.
 - 🧲 [metallb](https://github.com/goldentooth/metallb): MetalLB ArgoCD application
 - 📡 [httpbin](https://github.com/goldentooth/httpbin): `httpbingo` Argo CD application
 - 📈 [prometheus-node-exporter](https://github.com/goldentooth/prometheus-node-exporter): Argo CD application
