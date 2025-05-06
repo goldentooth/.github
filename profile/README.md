@@ -62,3 +62,7 @@ Here's a list of some of the major services/tools/applications I have installed 
 
 ## Permissions
 I'm releasing everything I create here under an [Unlicense](https://choosealicense.com/licenses/unlicense/) in the hopes that it proves interesting or useful to other engineers.
+
+---
+
+< [@ndouglas](https://github.com/ndouglas/)
