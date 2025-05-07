@@ -25,17 +25,18 @@ Think of it as a **Chaos Zoo**, a system design playground, or a physical dev en
 
 ## 🔧 Affordance Table
 
-| **Affordance**             | **Tool(s)**                          | **Type**             | **Interface(s)**            | **Exposed?**     |
-|---------------------------|--------------------------------------|----------------------|-----------------------------|------------------|
-| Cluster Orchestration     | Kubernetes, Nomad                    | Control Plane        | `kubectl`, REST API         | Internal only    |
-| Scheduling                | Slurm, Nomad                         | Batch/Job Scheduler  | CLI, REST                   | Internal         |
-| Deployment Automation     | Argo CD                              | GitOps Controller    | Web UI, CLI                 | Optional         |
-| Secrets Management        | Vault, SealedSecrets, ExternalSecrets| Secret Store         | CLI, API, CRDs              | Internal         |
-| Observability             | Prometheus, Node Exporter            | Metrics              | PromQL, HTTP                | Partially Public |
-| Service Discovery         | Consul, mDNS                         | Internal DNS         | DNS, HTTP API               | Internal         |
-| Networking / Routing      | HAProxy, Envoy, MetalLB              | L4/L7 Proxying       | TCP, HTTP                   | Some Public      |
-| Data Storage              | NFS                                  | Shared Filesystem    | NFS Protocol                | Internal         |
-| DNS Management            | ExternalDNS                          | Cloud DNS Updates    | CRDs                        | Yes              |
+| **Affordance**                    | **Tool(s)**                                 | **Type**             | **Interface(s)**            | **Exposed?**     |
+|-----------------------------------|---------------------------------------------|----------------------|-----------------------------|------------------|
+| Cluster Orchestration             | Kubernetes, Nomad                           | Control Plane        | `kubectl`, REST API         | Internal only    |
+| Scheduling                        | Slurm, Nomad                                | Batch/Job Scheduler  | CLI, REST                   | Internal         |
+| Deployment Automation             | Argo CD                                     | GitOps Controller    | Web UI, CLI                 | Internal         |
+| Secrets Management                | Vault, SealedSecrets, ExternalSecrets       | Secret Store         | CLI, API, CRDs              | Internal         |
+| Observability                     | Prometheus, Node Exporter                   | Metrics              | PromQL, HTTP                | Internal         |
+| Service Discovery                 | Consul, mDNS                                | Internal DNS         | DNS, HTTP API               | Internal         |
+| Baremetal K8s Load Balancing      | MetalLB                                     | L2 (formerly BGP)    | K8s Load Balancing          | Internal         |
+| Networking / Routing              | HAProxy, Envoy                              | L2/L4/L7 Proxying    | TCP, HTTP                   | Some Public      |
+| Data Storage                      | NFS                                         | Shared Filesystem    | NFS Protocol                | Internal         |
+| DNS Management                    | ExternalDNS                                 | Cloud DNS Updates    | CRDs                        | Yes              |
 
 ---
 
