@@ -34,7 +34,7 @@ Think of it as a **Chaos Zoo**, a system design playground, or a physical dev en
 | Observability                     | Prometheus, Node Exporter                   | Metrics              | PromQL, HTTP                | Internal         |
 | Service Discovery                 | Consul, mDNS                                | Internal DNS         | DNS, HTTP API               | Internal         |
 | Baremetal K8s Load Balancing      | MetalLB                                     | L2 (formerly BGP)    | K8s Load Balancing          | Internal         |
-| Networking / Routing              | HAProxy, Envoy                              | L2/L4/L7 Proxying    | TCP, HTTP                   | Some Public      |
+| Networking / Routing              | HAProxy, Envoy                              | L4/L7 Proxying       | TCP, HTTP                   | Some Public      |
 | Data Storage                      | NFS                                         | Shared Filesystem    | NFS Protocol                | Internal         |
 | DNS Management                    | ExternalDNS                                 | Cloud DNS Updates    | CRDs                        | Yes              |
 
