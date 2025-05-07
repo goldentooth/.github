@@ -1,10 +1,6 @@
 # 🦷 GoldenTooth 🦷
 {{ webring }}
 
-> A chaos-driven DevOps/MLOps cluster built atop Raspberry Pis.
-> No services are precious. Everything is disposable.
-> Built to destroy, observe, learn.
-
 ---
 
 ## 🧩 What Is GoldenTooth?
@@ -43,8 +39,14 @@ Think of it as a **Chaos Zoo**, a system design playground, or a physical dev en
 
 ---
 
+## 📦 Repositories
+
+{{ repositories }}
+
+---
+
 ## Permissions
-I'm releasing everything I create here under an [Unlicense](https://choosealicense.com/licenses/unlicense/) in the hopes that it proves interesting or useful to other engineers.
+Everything's under an [Unlicense](https://choosealicense.com/licenses/unlicense/).
 
 !["Nothing is true." "Everything is permitted."](./niteip.jpg)
 
