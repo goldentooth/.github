@@ -33,7 +33,7 @@ Think of it as a **Chaos Zoo**, a system design playground, or a physical dev en
 | Secrets Management                | Vault, SealedSecrets, ExternalSecrets       | Secret Store         | CLI, API, CRDs              | Internal         |
 | Observability                     | Prometheus, Node Exporter                   | Metrics              | PromQL, HTTP                | Internal         |
 | Service Discovery                 | Consul, mDNS                                | Internal DNS         | DNS, HTTP API               | Internal         |
-| Baremetal K8s Load Balancing      | MetalLB                                     | L2 (formerly BGP)    | K8s Load Balancing          | Internal         |
+| Baremetal K8s Load Balancing      | MetalLB                                     | L2 (formerly BGP)    | K8s, ARP                    | Internal         |
 | Networking / Routing              | HAProxy, Envoy                              | L4/L7 Proxying       | TCP, HTTP                   | Some Public      |
 | Data Storage                      | NFS                                         | Shared Filesystem    | NFS Protocol                | Internal         |
 | DNS Management                    | ExternalDNS                                 | Cloud DNS Updates    | CRDs                        | Yes              |
