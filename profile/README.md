@@ -30,20 +30,20 @@ Currently, it has the following general structure:
 
 ## Repositories
 - 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
-- 🧰 [ansible](https://github.com/goldentooth/ansible): Basic setup for my Pi bramble/cluster.
-- 🐚 [bash](https://github.com/goldentooth/bash): Bash scripts for interacting with GoldenTooth, my Pi Bramble/Cluster
-- 🧲 [metallb](https://github.com/goldentooth/metallb): MetalLB ArgoCD application
-- 📡 [httpbin](https://github.com/goldentooth/httpbin): `httpbingo` Argo CD application
-- 📈 [prometheus-node-exporter](https://github.com/goldentooth/prometheus-node-exporter): Argo CD application
-- 🧬 [gitops-template](https://github.com/goldentooth/gitops-template): A template for my GitOps repositories.
-- 🌐 [external-dns](https://github.com/goldentooth/external-dns): ExternalDNS GitOps repository.
-- 🔐 [sealed-secrets](https://github.com/goldentooth/sealed-secrets): SealedSecrets GitOps repository.
-- 🗝️ [external-secrets](https://github.com/goldentooth/external-secrets): GitOps repository for ExternalSecrets
-- 🧱 [clog](https://github.com/goldentooth/clog): Dev blog, formerly known as **Kubernetes, the _Excruciating_ Way**
-- 🛡️ [asoiaf-noble-house-images](https://github.com/goldentooth/asoiaf-noble-house-images): Images derived from arms from noble houses of ASoIaF.
-- 🫀 [pulse](https://github.com/goldentooth/pulse): Node network effects visualized as a heartbeat.
 - 🚜 [terraform](https://github.com/goldentooth/terraform): General Terraform Infrastructure-as-Code for Goldentooth
 - 🛣️ [roadmap](https://github.com/goldentooth/roadmap): Planning and researching the future of Goldentooth.
+- 🫀 [pulse](https://github.com/goldentooth/pulse): Node network effects visualized as a heartbeat.
+- 🧱 [clog](https://github.com/goldentooth/clog): Dev blog, formerly known as **Kubernetes, the _Excruciating_ Way**
+- 🗝️ [external-secrets](https://github.com/goldentooth/external-secrets): GitOps repository for ExternalSecrets
+- 🔐 [sealed-secrets](https://github.com/goldentooth/sealed-secrets): SealedSecrets GitOps repository.
+- 🌐 [external-dns](https://github.com/goldentooth/external-dns): ExternalDNS GitOps repository.
+- 🧬 [gitops-template](https://github.com/goldentooth/gitops-template): A template for my GitOps repositories.
+- 📈 [prometheus-node-exporter](https://github.com/goldentooth/prometheus-node-exporter): Argo CD application
+- 📡 [httpbin](https://github.com/goldentooth/httpbin): `httpbingo` Argo CD application
+- 🧲 [metallb](https://github.com/goldentooth/metallb): MetalLB ArgoCD application
+- 🛡️ [asoiaf-noble-house-images](https://github.com/goldentooth/asoiaf-noble-house-images): Images derived from arms from noble houses of ASoIaF.
+- 🐚 [bash](https://github.com/goldentooth/bash): Bash scripts for interacting with GoldenTooth, my Pi Bramble/Cluster
+- 🧰 [ansible](https://github.com/goldentooth/ansible): Basic setup for my Pi bramble/cluster.
 
 
 ## Software/Services
