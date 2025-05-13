@@ -54,7 +54,7 @@ Think of it as a **Chaos Zoo**, a system design playground, or a physical dev en
 - 🌐 [external-dns](https://github.com/goldentooth/external-dns): ExternalDNS GitOps repository.
 - 🧬 [gitops-template](https://github.com/goldentooth/gitops-template): A template for my GitOps repositories.
 - 📈 [prometheus-node-exporter](https://github.com/goldentooth/prometheus-node-exporter): Argo CD application
-- ❓ [httpbin](https://github.com/goldentooth/httpbin): `httpbingo` Argo CD application
+- 📡 [httpbin](https://github.com/goldentooth/httpbin): `httpbingo` Argo CD application
 - 🧲 [metallb](https://github.com/goldentooth/metallb): MetalLB ArgoCD application
 - 🛡️ [asoiaf-noble-house-images](https://github.com/goldentooth/asoiaf-noble-house-images): Images derived from arms from noble houses of ASoIaF.
 
