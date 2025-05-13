@@ -42,6 +42,7 @@ Think of it as a **Chaos Zoo**, a system design playground, or a physical dev en
 
 ## 📦 Repositories
 
+- 🧰 [ansible](https://github.com/goldentooth/ansible): Basic setup for my Pi bramble/cluster.
 - 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
 - 🐚 [bash](https://github.com/goldentooth/bash): Bash scripts for interacting with GoldenTooth, my Pi Bramble/Cluster
 - 🚜 [terraform](https://github.com/goldentooth/terraform): General Terraform Infrastructure-as-Code for Goldentooth
@@ -56,7 +57,6 @@ Think of it as a **Chaos Zoo**, a system design playground, or a physical dev en
 - 📡 [httpbin](https://github.com/goldentooth/httpbin): `httpbingo` Argo CD application
 - 🧲 [metallb](https://github.com/goldentooth/metallb): MetalLB ArgoCD application
 - 🛡️ [asoiaf-noble-house-images](https://github.com/goldentooth/asoiaf-noble-house-images): Images derived from arms from noble houses of ASoIaF.
-- 🧰 [ansible](https://github.com/goldentooth/ansible): Basic setup for my Pi bramble/cluster.
 
 
 ---
