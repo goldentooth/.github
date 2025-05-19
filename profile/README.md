@@ -1,11 +1,11 @@
-# 🦷 GoldenTooth 🦷
+# 🦷 Goldentooth 🦷
 ( <span style="display:inline-block; min-width: 2em;">🌀</span>[ndouglas](https://github.com/ndouglas/) | <span style="display:inline-block; min-width: 2em;">🌉</span>[bitterbridge](https://github.com/bitterbridge/) | <span style="display:inline-block; min-width: 2em;">️‍🔥</span>[hellholt](https://github.com/hellholt/) | <span style="display:inline-block; min-width: 2em;">🦷</span>[goldentooth](https://github.com/goldentooth/) )
 
 ---
 
-## 🧩 What Is GoldenTooth?
+## 🧩 What Is Goldentooth?
 
-GoldenTooth is [my](https://github.com/ndouglas/) personal Pi Bramble — a ten-node Raspberry Pi 4B (8GB RAM, 128GB SD) cluster housed in a PicoCluster 10H.
+Goldentooth is [my](https://github.com/ndouglas/) personal Pi Bramble — a ten-node Raspberry Pi 4B (8GB RAM, 128GB SD) cluster housed in a PicoCluster 10H.
 
 It's a sandbox for experimenting with distributed systems, orchestration layers, and failure modes. Services have no purpose but to teach me how they behave under stress, failure, and reconfiguration.
 
@@ -44,6 +44,10 @@ Think of it as a **Chaos Zoo**, a system design playground, or a physical dev en
 
 - 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
 - 🧰 [ansible](https://github.com/goldentooth/ansible): Basic setup for my Pi bramble/cluster.
+<<<<<<< Updated upstream
+=======
+- 🐚 [bash](https://github.com/goldentooth/bash): Bash scripts for interacting with Goldentooth, my Pi Bramble/Cluster
+>>>>>>> Stashed changes
 - 🧱 [clog](https://github.com/goldentooth/clog): The changelog formerly known as "Kubernetes, the _Excruciating_ Way".
 - 🚜 [terraform](https://github.com/goldentooth/terraform): General Terraform Infrastructure-as-Code for Goldentooth
 - 🐚 [bash](https://github.com/goldentooth/bash): Bash scripts for interacting with GoldenTooth, my Pi Bramble/Cluster

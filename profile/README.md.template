@@ -1,11 +1,11 @@
-# 🦷 GoldenTooth 🦷
+# 🦷 Goldentooth 🦷
 {{ webring }}
 
 ---
 
-## 🧩 What Is GoldenTooth?
+## 🧩 What Is Goldentooth?
 
-GoldenTooth is [my](https://github.com/ndouglas/) personal Pi Bramble — a ten-node Raspberry Pi 4B (8GB RAM, 128GB SD) cluster housed in a PicoCluster 10H.
+Goldentooth is [my](https://github.com/ndouglas/) personal Pi Bramble — a ten-node Raspberry Pi 4B (8GB RAM, 128GB SD) cluster housed in a PicoCluster 10H.
 
 It's a sandbox for experimenting with distributed systems, orchestration layers, and failure modes. Services have no purpose but to teach me how they behave under stress, failure, and reconfiguration.
 
