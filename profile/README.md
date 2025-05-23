@@ -42,8 +42,8 @@ Think of it as a **Chaos Zoo**, a system design playground, or a physical dev en
 
 ## 📦 Repositories
 
-- 🧱 [clog](https://github.com/goldentooth/clog): The changelog formerly known as "Kubernetes, the _Excruciating_ Way".
 - 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
+- 🧱 [clog](https://github.com/goldentooth/clog): The changelog formerly known as "Kubernetes, the _Excruciating_ Way".
 - 🚜 [terraform](https://github.com/goldentooth/terraform): General Terraform Infrastructure-as-Code for Goldentooth
 - 🌊 [flood](https://github.com/goldentooth/flood): A little Rust app for sending a bunch of HTTP requests as fast as possible.
 - 🏁 [flags](https://github.com/goldentooth/flags): An experimental high-performance self-organizing feature flag server cluster.
