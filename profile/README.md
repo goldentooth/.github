@@ -23,11 +23,11 @@ Think of it as a **Chaos Zoo**, a system design playground, or a physical dev en
 
 ---
 
-## 🔧 Affordance Table
+## 🔧 Service Table
 
-| **Affordance**                    | **Tool(s)**                                 | **Type**             | **Interface(s)**            | **Exposed?**     |
+| **Service**                       | **Tool(s)**                                 | **Type**             | **Interface(s)**            | **Exposed?**     |
 |-----------------------------------|---------------------------------------------|----------------------|-----------------------------|------------------|
-| Cluster Orchestration             | Kubernetes, Nomad                           | Control Plane        | `kubectl`, REST API         | Internal only    |
+| Cluster Orchestration             | Kubernetes, Nomad                           | Control Plane        | `kubectl`, REST API         | Internal         |
 | Scheduling                        | Slurm, Nomad                                | Batch/Job Scheduler  | CLI, REST                   | Internal         |
 | Deployment Automation             | Argo CD                                     | GitOps Controller    | Web UI, CLI                 | Internal         |
 | Secrets Management                | Vault, SealedSecrets, ExternalSecrets       | Secret Store         | CLI, API, CRDs              | Internal         |
@@ -36,7 +36,9 @@ Think of it as a **Chaos Zoo**, a system design playground, or a physical dev en
 | Baremetal K8s Load Balancing      | MetalLB                                     | L2 (formerly BGP)    | K8s, ARP                    | Internal         |
 | Networking / Routing              | HAProxy, Envoy                              | L4/L7 Proxying       | TCP, HTTP                   | Some Public      |
 | Data Storage                      | NFS                                         | Shared Filesystem    | NFS Protocol                | Internal         |
-| DNS Management                    | ExternalDNS                                 | Cloud DNS Updates    | CRDs                        | Yes              |
+| DNS Management                    | ExternalDNS                                 | Cloud DNS Updates    | CRDs                        | Internal         |
+| Log Collection/Shipping           | Vector                                      | Log Shipper          | Various                     | Internal         |
+| Log Aggregation                   | Loki                                        | Log Aggregator       | HTTP                        | Internal         |
 
 ---
 
