@@ -13,13 +13,15 @@ Think of it as a **Chaos Zoo**, a system design playground, or a physical dev en
 
 ---
 
+![My Cluster](./cluster.png)
+
 ## 🗺️ Node Layout
 
 | Role         | Nodes                                      | Responsibilities |
 |--------------|--------------------------------------------|------------------|
 | 🧭 **Edge**   | `Allyrion`                                 | Load balancer, NFS, HAProxy, Envoy, Consul client |
 | 🧠 **Leaders**| `Bettley`, `Cargyll`, `Dalt`               | Kubernetes control plane, Vault, Nomad/Slurm servers, Consul servers |
-| 🧑‍🌾 **Workers**| `Erenford`, `Fenn`, `Gardener`, `Harlton`, `Inchfield`, `Jast` | Kubernetes workers, Nomad/Slurm clients, Consul clients |
+| 🧑‍🌾 **Workers**| `Erenford`, `Fenn`, `Gardener`, `Harlton`, `Inchfield`, `Jast`, `Karstark`, `Lipps` | Kubernetes workers, Nomad/Slurm clients, Consul clients |
 
 ---
 
