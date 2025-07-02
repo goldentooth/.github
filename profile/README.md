@@ -5,7 +5,9 @@
 
 ## 🧩 What Is Goldentooth?
 
-Goldentooth is [my](https://github.com/ndouglas/) personal Pi Bramble — a ten-node Raspberry Pi 4B (8GB RAM, 128GB SD) cluster housed in a PicoCluster 10H.
+Goldentooth is [my](https://github.com/ndouglas/) personal Pi Bramble — a 12-node Raspberry Pi 4B (8GB RAM, 128-256GB SD, 120GB-1TB SSD) cluster housed in a 12U 10" rack.
+
+That's about as puny as anything with 48 cores and 96GB RAM could possibly be.
 
 It's a sandbox for experimenting with distributed systems, orchestration layers, and failure modes. Services have no purpose but to teach me how they behave under stress, failure, and reconfiguration.
 
