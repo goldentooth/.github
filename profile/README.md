@@ -48,9 +48,9 @@ Think of it as a **Chaos Zoo**, a system design playground, or a physical dev en
 
 ## 📦 Repositories
 
+- 🚜 [terraform](https://github.com/goldentooth/terraform): General Terraform Infrastructure-as-Code for Goldentooth
 - 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
 - 🧞 [agent](https://github.com/goldentooth/agent): An intelligent agent for Goldentooth.
-- 🚜 [terraform](https://github.com/goldentooth/terraform): General Terraform Infrastructure-as-Code for Goldentooth
 - 🧰 [ansible](https://github.com/goldentooth/ansible): Basic setup for my Pi bramble/cluster.
 - ❓ [agent-knowledge-base](https://github.com/goldentooth/agent-knowledge-base): Knowledge Base for the Goldentooth Agent
 - 🧱 [clog](https://github.com/goldentooth/clog): The changelog formerly known as "Kubernetes, the _Excruciating_ Way".
