@@ -48,11 +48,11 @@ Think of it as a **Chaos Zoo**, a system design playground, or a physical dev en
 
 ## 📦 Repositories
 
+- 🐚 [bash](https://github.com/goldentooth/bash): Bash scripts for interacting with GoldenTooth, my Pi Bramble/Cluster
+- 🧰 [ansible](https://github.com/goldentooth/ansible): Basic setup for my Pi bramble/cluster.
 - 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
 - 🧞 [agent](https://github.com/goldentooth/agent): An experimental intelligent agent for my Pi Bramble
-- 🐚 [bash](https://github.com/goldentooth/bash): Bash scripts for interacting with GoldenTooth, my Pi Bramble/Cluster
 - 🚜 [terraform](https://github.com/goldentooth/terraform): General Terraform Infrastructure-as-Code for Goldentooth
-- 🧰 [ansible](https://github.com/goldentooth/ansible): Basic setup for my Pi bramble/cluster.
 - 🧱 [clog](https://github.com/goldentooth/clog): The changelog formerly known as "Kubernetes, the _Excruciating_ Way".
 - 📈 [prometheus-node-exporter](https://github.com/goldentooth/prometheus-node-exporter): Argo CD application
 - 📊 [grafana-dashboards](https://github.com/goldentooth/grafana-dashboards): Grafana Dashboards
