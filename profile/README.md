@@ -48,23 +48,24 @@ Think of it as a **Chaos Zoo**, a system design playground, or a physical dev en
 
 ## 📦 Repositories
 
-- 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
+- ❓ [kube-state-metrics](https://github.com/goldentooth/kube-state-metrics): Kubernetes object metrics collection for the goldentooth cluster
 - 🧰 [ansible](https://github.com/goldentooth/ansible): Basic setup for my Pi bramble/cluster.
 - 🧱 [clog](https://github.com/goldentooth/clog): The changelog formerly known as "Kubernetes, the _Excruciating_ Way".
+- 🚜 [terraform](https://github.com/goldentooth/terraform): General Terraform Infrastructure-as-Code for Goldentooth
+- 🌐 [external-dns](https://github.com/goldentooth/external-dns): ExternalDNS GitOps repository.
+- 📡 [httpbin](https://github.com/goldentooth/httpbin): `httpbingo` Argo CD application
+- 🧲 [metallb](https://github.com/goldentooth/metallb): MetalLB ArgoCD application
+- 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
 - ❓ [cross-compile-toolkit](https://github.com/goldentooth/cross-compile-toolkit): Containerized cross-compilation toolkit for ARM64 binaries targeting Raspberry Pi cluster
 - 🐚 [bash](https://github.com/goldentooth/bash): Bash scripts for interacting with GoldenTooth, my Pi Bramble/Cluster
 - 🧞 [agent](https://github.com/goldentooth/agent): An experimental intelligent agent for my Pi Bramble
-- 🚜 [terraform](https://github.com/goldentooth/terraform): General Terraform Infrastructure-as-Code for Goldentooth
 - 📈 [prometheus-node-exporter](https://github.com/goldentooth/prometheus-node-exporter): Argo CD application
 - 📊 [grafana-dashboards](https://github.com/goldentooth/grafana-dashboards): Grafana Dashboards
 - 🫀 [pulse](https://github.com/goldentooth/pulse): Node network effects visualized as a heartbeat.
 - 🛣️ [roadmap](https://github.com/goldentooth/roadmap): Planning and researching the future of Goldentooth.
 - 🗝️ [external-secrets](https://github.com/goldentooth/external-secrets): GitOps repository for ExternalSecrets
 - 🔐 [sealed-secrets](https://github.com/goldentooth/sealed-secrets): SealedSecrets GitOps repository.
-- 🌐 [external-dns](https://github.com/goldentooth/external-dns): ExternalDNS GitOps repository.
 - 🧬 [gitops-template](https://github.com/goldentooth/gitops-template): A template for my GitOps repositories.
-- 📡 [httpbin](https://github.com/goldentooth/httpbin): `httpbingo` Argo CD application
-- 🧲 [metallb](https://github.com/goldentooth/metallb): MetalLB ArgoCD application
 - 🛡️ [asoiaf-noble-house-images](https://github.com/goldentooth/asoiaf-noble-house-images): Images derived from arms from noble houses of ASoIaF.
 
 
