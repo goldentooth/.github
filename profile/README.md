@@ -48,12 +48,12 @@ Think of it as a **Chaos Zoo**, a system design playground, or a physical dev en
 
 ## 📦 Repositories
 
+- 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
 - 🛰️ [mcp-server](https://github.com/goldentooth/mcp-server): MCP server for Goldentooth cluster management
 - 🧰 [ansible](https://github.com/goldentooth/ansible): Basic setup for my Pi bramble/cluster.
 - 📊 [grafana-dashboards](https://github.com/goldentooth/grafana-dashboards): Grafana Dashboards
 - 🧱 [clog](https://github.com/goldentooth/clog): The changelog formerly known as "Kubernetes, the _Excruciating_ Way".
 - 🚜 [terraform](https://github.com/goldentooth/terraform): General Terraform Infrastructure-as-Code for Goldentooth
-- 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
 - ❓ [kube-state-metrics](https://github.com/goldentooth/kube-state-metrics): Kubernetes object metrics collection for the goldentooth cluster
 - 🌐 [external-dns](https://github.com/goldentooth/external-dns): ExternalDNS GitOps repository.
 - 📡 [httpbin](https://github.com/goldentooth/httpbin): `httpbingo` Argo CD application
