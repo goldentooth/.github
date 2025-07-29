@@ -48,13 +48,13 @@ Think of it as a **Chaos Zoo**, a system design playground, or a physical dev en
 
 ## 📦 Repositories
 
-- 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
+- ❓ [linear-regression](https://github.com/goldentooth/linear-regression): P5.js playground for experimenting with linear regression algorithms
+- ❓ [p5js-sketches](https://github.com/goldentooth/p5js-sketches): P5.js Sketch Server - Static file server for hosting p5.js sketches on Ceph storage
 - ❓ [longhorn](https://github.com/goldentooth/longhorn): Longhorn distributed block storage for Goldentooth Pi infrastructure - High-performance ReadWriteOnce storage optimized for SSD and ARM64 hardware
+- ❓ [p5js-template](https://github.com/goldentooth/p5js-template): Template for P5.js sketches
+- 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
 - ❓ [seaweedfs](https://github.com/goldentooth/seaweedfs): SeaweedFS distributed storage cluster for Goldentooth Pi infrastructure - ReadWriteMany storage optimized for ARM64 hardware
 - ❓ [cert-manager](https://github.com/goldentooth/cert-manager): cert-manager with step-ca ACME integration for Goldentooth Kubernetes cluster
-- ❓ [p5js-sketches](https://github.com/goldentooth/p5js-sketches): P5.js Sketch Server - Static file server for hosting p5.js sketches on Ceph storage
-- ❓ [linear-regression](https://github.com/goldentooth/linear-regression): P5.js playground for experimenting with linear regression algorithms
-- ❓ [p5js-template](https://github.com/goldentooth/p5js-template): Template for P5.js sketches
 - 🧰 [ansible](https://github.com/goldentooth/ansible): Basic setup for my Pi bramble/cluster.
 - 🚜 [terraform](https://github.com/goldentooth/terraform): General Terraform Infrastructure-as-Code for Goldentooth
 - 🧲 [metallb](https://github.com/goldentooth/metallb): MetalLB ArgoCD application
