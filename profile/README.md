@@ -48,15 +48,17 @@ Think of it as a **Chaos Zoo**, a system design playground, or a physical dev en
 
 ## 📦 Repositories
 
-- 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
-- ❓ [linear-regression](https://github.com/goldentooth/linear-regression): P5.js playground for experimenting with linear regression algorithms
+- ❓ [seaweedfs-cluster](https://github.com/goldentooth/seaweedfs-cluster): SeaweedFS distributed storage cluster deployment for Goldentooth infrastructure
 - ❓ [p5js-sketches](https://github.com/goldentooth/p5js-sketches): P5.js Sketch Server - Static file server for hosting p5.js sketches on Ceph storage
-- ❓ [longhorn](https://github.com/goldentooth/longhorn): Longhorn distributed block storage for Goldentooth Pi infrastructure - High-performance ReadWriteOnce storage optimized for SSD and ARM64 hardware
-- ❓ [p5js-template](https://github.com/goldentooth/p5js-template): Template for P5.js sketches
-- ❓ [seaweedfs](https://github.com/goldentooth/seaweedfs): SeaweedFS distributed storage cluster for Goldentooth Pi infrastructure - ReadWriteMany storage optimized for ARM64 hardware
+- ❓ [seaweedfs-operator](https://github.com/goldentooth/seaweedfs-operator): SeaweedFS Kubernetes Operator deployment for Goldentooth cluster
+- 🐚 [bash](https://github.com/goldentooth/bash): Bash scripts for interacting with GoldenTooth, my Pi Bramble/Cluster
 - ❓ [cert-manager](https://github.com/goldentooth/cert-manager): cert-manager with step-ca ACME integration for Goldentooth Kubernetes cluster
 - 🧰 [ansible](https://github.com/goldentooth/ansible): Basic setup for my Pi bramble/cluster.
+- ❓ [seaweedfs](https://github.com/goldentooth/seaweedfs): SeaweedFS distributed storage cluster for Goldentooth Pi infrastructure - ReadWriteMany storage optimized for ARM64 hardware
 - 🚜 [terraform](https://github.com/goldentooth/terraform): General Terraform Infrastructure-as-Code for Goldentooth
+- ❓ [longhorn](https://github.com/goldentooth/longhorn): Longhorn distributed block storage for Goldentooth Pi infrastructure - High-performance ReadWriteOnce storage optimized for SSD and ARM64 hardware
+- 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
+- ❓ [p5js-template](https://github.com/goldentooth/p5js-template): Template for P5.js sketches
 - 🧲 [metallb](https://github.com/goldentooth/metallb): MetalLB ArgoCD application
 - 🧱 [clog](https://github.com/goldentooth/clog): The changelog formerly known as "Kubernetes, the _Excruciating_ Way".
 - 📈 [kube-state-metrics](https://github.com/goldentooth/kube-state-metrics): Kubernetes object metrics collection for the goldentooth cluster
@@ -67,7 +69,6 @@ Think of it as a **Chaos Zoo**, a system design playground, or a physical dev en
 - 🌐 [external-dns](https://github.com/goldentooth/external-dns): ExternalDNS GitOps repository.
 - 📊 [grafana-dashboards](https://github.com/goldentooth/grafana-dashboards): Grafana Dashboards
 - 🛰️ [mcp-server](https://github.com/goldentooth/mcp-server): MCP server for Goldentooth cluster management
-- 🐚 [bash](https://github.com/goldentooth/bash): Bash scripts for interacting with GoldenTooth, my Pi Bramble/Cluster
 - 🧞 [agent](https://github.com/goldentooth/agent): An experimental intelligent agent for my Pi Bramble
 - 🫀 [pulse](https://github.com/goldentooth/pulse): Node network effects visualized as a heartbeat.
 - 🛣️ [roadmap](https://github.com/goldentooth/roadmap): Planning and researching the future of Goldentooth.
