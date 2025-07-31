@@ -48,19 +48,15 @@ Think of it as a **Chaos Zoo**, a system design playground, or a physical dev en
 
 ## 📦 Repositories
 
-- 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
-- ❓ [seaweedfs-cluster](https://github.com/goldentooth/seaweedfs-cluster): SeaweedFS distributed storage cluster deployment for Goldentooth infrastructure
 - ❓ [p5js-sketches](https://github.com/goldentooth/p5js-sketches): P5.js Sketch Server - Static file server for hosting p5.js sketches on Ceph storage
-- ❓ [seaweedfs-operator](https://github.com/goldentooth/seaweedfs-operator): SeaweedFS Kubernetes Operator deployment for Goldentooth cluster
+- 🧱 [clog](https://github.com/goldentooth/clog): The changelog formerly known as "Kubernetes, the _Excruciating_ Way".
+- 🚜 [terraform](https://github.com/goldentooth/terraform): General Terraform Infrastructure-as-Code for Goldentooth
+- 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
 - 🐚 [bash](https://github.com/goldentooth/bash): Bash scripts for interacting with GoldenTooth, my Pi Bramble/Cluster
 - ❓ [cert-manager](https://github.com/goldentooth/cert-manager): cert-manager with step-ca ACME integration for Goldentooth Kubernetes cluster
 - 🧰 [ansible](https://github.com/goldentooth/ansible): Basic setup for my Pi bramble/cluster.
-- ❓ [seaweedfs](https://github.com/goldentooth/seaweedfs): SeaweedFS distributed storage cluster for Goldentooth Pi infrastructure - ReadWriteMany storage optimized for ARM64 hardware
-- 🚜 [terraform](https://github.com/goldentooth/terraform): General Terraform Infrastructure-as-Code for Goldentooth
-- ❓ [longhorn](https://github.com/goldentooth/longhorn): Longhorn distributed block storage for Goldentooth Pi infrastructure - High-performance ReadWriteOnce storage optimized for SSD and ARM64 hardware
 - ❓ [p5js-template](https://github.com/goldentooth/p5js-template): Template for P5.js sketches
 - 🧲 [metallb](https://github.com/goldentooth/metallb): MetalLB ArgoCD application
-- 🧱 [clog](https://github.com/goldentooth/clog): The changelog formerly known as "Kubernetes, the _Excruciating_ Way".
 - 📈 [kube-state-metrics](https://github.com/goldentooth/kube-state-metrics): Kubernetes object metrics collection for the goldentooth cluster
 - 🧰 [cross-compile-toolkit](https://github.com/goldentooth/cross-compile-toolkit): Containerized cross-compilation toolkit for ARM64 binaries targeting Raspberry Pi cluster
 - 🔐 [sealed-secrets](https://github.com/goldentooth/sealed-secrets): SealedSecrets GitOps repository.
