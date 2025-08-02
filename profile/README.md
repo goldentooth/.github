@@ -5,9 +5,9 @@
 
 ## 🧩 What Is Goldentooth?
 
-Goldentooth is [my](https://github.com/ndouglas/) personal Pi Bramble — a 13-node hybrid cluster: 12 Raspberry Pi 4B nodes (8GB RAM, 128-256GB SD, 120GB-1TB SSD) plus 1 x86 GPU server, all housed in a 12U 10" rack.
+Goldentooth is [my](https://github.com/ndouglas/) personal Pi Bramble — a 17-node hybrid cluster: 16 Raspberry Pi 4B nodes (8GB RAM, 128-256GB SD, 120GB-1TB SSD) housed in a 12U 10" rack, plus 1 x86 GPU server.
 
-That's about as puny as anything with 48+ cores and 96+ GB RAM could possibly be.
+That's about as puny as anything with 64+ cores and 152+ GB RAM could possibly be.
 
 It's a sandbox for experimenting with distributed systems, orchestration layers, and failure modes. Services have no purpose but to teach me how they behave under stress, failure, and reconfiguration.
 
@@ -23,7 +23,7 @@ Think of it as a **Chaos Zoo**, a system design playground, or a physical dev en
 |--------------|--------------------------------------------|------------------|
 | 🧭 **Edge**   | `Allyrion`                                 | Load balancer, NFS, HAProxy, Envoy, Consul client |
 | 🧠 **Leaders**| `Bettley`, `Cargyll`, `Dalt`               | Kubernetes control plane, Vault, Nomad/Slurm servers, Consul servers |
-| 🧑‍🌾 **Workers**| `Erenford`, `Fenn`, `Gardener`, `Harlton`, `Inchfield`, `Jast`, `Karstark`, `Lipps` | Kubernetes workers, Nomad/Slurm clients, Consul clients |
+| 🧑‍🌾 **Workers**| `Erenford`, `Fenn`, `Gardener`, `Harlton`, `Inchfield`, `Jast`, `Karstark`, `Lipps`, `Manderly`, `Norcross`, `Oakheart`, `Payne` | Kubernetes workers, Nomad/Slurm clients, Consul clients |
 | 🖥️ **GPU**    | `Velaryon` (x86)                           | GPU workloads, high-memory tasks, storage server |
 
 ---
@@ -54,10 +54,10 @@ Think of it as a **Chaos Zoo**, a system design playground, or a physical dev en
 ## 📦 Repositories
 
 - 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
+- 🧰 [ansible](https://github.com/goldentooth/ansible): Basic setup for my Pi bramble/cluster.
 - 🛰️ [mcp-server](https://github.com/goldentooth/mcp-server): MCP server for Goldentooth cluster management
 - 🚜 [terraform](https://github.com/goldentooth/terraform): General Terraform Infrastructure-as-Code for Goldentooth
 - 🧱 [clog](https://github.com/goldentooth/clog): The changelog formerly known as "Kubernetes, the _Excruciating_ Way".
-- 🧰 [ansible](https://github.com/goldentooth/ansible): Basic setup for my Pi bramble/cluster.
 - 📊 [grafana-dashboards](https://github.com/goldentooth/grafana-dashboards): Grafana Dashboards
 - 🏛️ [cert-manager](https://github.com/goldentooth/cert-manager): cert-manager with step-ca ACME integration for Goldentooth Kubernetes cluster
 - 📉 [p5js-sketches](https://github.com/goldentooth/p5js-sketches): P5.js Sketch Server - Static file server for hosting p5.js sketches on Ceph storage
