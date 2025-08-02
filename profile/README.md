@@ -53,8 +53,8 @@ Think of it as a **Chaos Zoo**, a system design playground, or a physical dev en
 
 ## 📦 Repositories
 
-- 🛰️ [mcp-server](https://github.com/goldentooth/mcp-server): MCP server for Goldentooth cluster management
 - 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
+- 🛰️ [mcp-server](https://github.com/goldentooth/mcp-server): MCP server for Goldentooth cluster management
 - 🚜 [terraform](https://github.com/goldentooth/terraform): General Terraform Infrastructure-as-Code for Goldentooth
 - 🧱 [clog](https://github.com/goldentooth/clog): The changelog formerly known as "Kubernetes, the _Excruciating_ Way".
 - 🧰 [ansible](https://github.com/goldentooth/ansible): Basic setup for my Pi bramble/cluster.
