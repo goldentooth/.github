@@ -5,74 +5,33 @@
 
 ## 🧩 What Is Goldentooth?
 
-Goldentooth is [my](https://github.com/ndouglas/) personal Pi Bramble — a 17-node hybrid cluster: 16 Raspberry Pi 4B nodes (8GB RAM, 128-256GB SD, 120GB-1TB SSD) housed in a 12U 10" rack, plus 1 x86 GPU server.
+Goldentooth is [my](https://github.com/ndouglas/) personal Pi Bramble — a 16-node Pi cluster housed in a 12U 10" rack:
+  - 12 Raspberry Pi 4B nodes (8GB RAM, 128-256GB SD, 120GB-1TB SSD)
+  - 4 Raspberry Pi 5 nodes (16GB RAM, 128GB SD, 1TB NVMe)
 
-That's about as puny as anything with 64+ cores and 152+ GB RAM could possibly be.
+That's about as puny as anything with 64 cores and 160 GB RAM could possibly be.
+
+(Also, I have a single x86 "auxiliary" server w/ a GPU for the occasional cross-compilation task.)
 
 It's a sandbox for experimenting with distributed systems, orchestration layers, and failure modes. Services have no purpose but to teach me how they behave under stress, failure, and reconfiguration.
 
 Think of it as a **Chaos Zoo**, a system design playground, or a physical dev environment for recursive infrastructure.
 
+I originally used Ansible and Terraform to manage the IaC for the cluster, but I've moved to Talos and Talhelper. See the [CLOG](https://clog.goldentooth.net/) for more details.
+
 ---
 
 ![My Cluster](./cluster.png)
-
-## 🗺️ Node Layout
-
-| Role         | Nodes                                      | Responsibilities |
-|--------------|--------------------------------------------|------------------|
-| 🧭 **Edge**   | `Allyrion`                                 | Load balancer, NFS, HAProxy, Envoy, Consul client |
-| 🧠 **Leaders**| `Bettley`, `Cargyll`, `Dalt`               | Kubernetes control plane, Vault, Nomad/Slurm servers, Consul servers |
-| 🧑‍🌾 **Workers**| `Erenford`, `Fenn`, `Gardener`, `Harlton`, `Inchfield`, `Jast`, `Karstark`, `Lipps`, `Manderly`, `Norcross`, `Oakheart`, `Payne` | Kubernetes workers, Nomad/Slurm clients, Consul clients |
-| 🖥️ **GPU**    | `Velaryon` (x86)                           | GPU workloads, high-memory tasks, storage server |
-
----
-
-## 🔧 Service Table
-
-| **Service**                       | **Tool(s)**                                 | **Type**             | **Interface(s)**            | **Exposed?**     |
-|-----------------------------------|---------------------------------------------|----------------------|-----------------------------|------------------|
-| Cluster Orchestration             | Kubernetes, Nomad                           | Control Plane        | `kubectl`, REST API         | Internal         |
-| Scheduling                        | Slurm, Nomad                                | Batch/Job Scheduler  | CLI, REST                   | Internal         |
-| Deployment Automation             | Argo CD                                     | GitOps Controller    | Web UI, CLI                 | Internal         |
-| Secrets Management                | Vault, SealedSecrets, ExternalSecrets       | Secret Store         | CLI, API, CRDs              | Internal         |
-| Observability                     | Prometheus, Node Exporter, Grafana          | Metrics              | PromQL, HTTP                | Internal         |
-| Service Discovery                 | Consul, mDNS                                | Internal DNS         | DNS, HTTP API               | Internal         |
-| Baremetal K8s Load Balancing      | MetalLB                                     | L2 (formerly BGP)    | K8s, ARP                    | Internal         |
-| Networking / Routing              | HAProxy, Envoy                              | L4/L7 Proxying       | TCP, HTTP                   | Some Public      |
-| Data Storage                      | NFS, SeaweedFS                              | Shared/Distributed   | NFS, S3 API                 | Internal         |
-| DNS Management                    | ExternalDNS                                 | Cloud DNS Updates    | CRDs                        | Internal         |
-| Log Collection/Shipping           | Vector                                      | Log Shipper          | Various                     | Internal         |
-| Log Aggregation                   | Loki                                        | Log Aggregator       | HTTP                        | Internal         |
-| Authentication                    | Authelia                                    | OIDC Provider        | Web UI, OIDC               | Some Public      |
-| Certificate Authority             | Step-CA                                     | PKI/Certificate Mgmt | CLI, ACME, API              | Internal         |
-| AI Assistant Integration          | MCP Server                                  | Model Context Proto  | JSON-RPC, HTTP              | Internal         |
-| Certificate Management            | cert-manager                                | K8s Certificate Ctrl | CRDs, ACME                  | Internal         |
 
 ---
 
 ## 📦 Repositories
 
 - 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
-- 🚜 [terraform](https://github.com/goldentooth/terraform): General Terraform Infrastructure-as-Code for Goldentooth
-- ❓ [cluster](https://github.com/goldentooth/cluster): Declarative definition for Goldentooth.
-- 🧰 [ansible](https://github.com/goldentooth/ansible): Basic setup for my Pi bramble/cluster.
-- 🐚 [bash](https://github.com/goldentooth/bash): Bash scripts for interacting with GoldenTooth, my Pi Bramble/Cluster
-- 🧞 [agent](https://github.com/goldentooth/agent): Intelligent agent for Goldentooth cluster management
 - 🧱 [clog](https://github.com/goldentooth/clog): The changelog formerly known as "Kubernetes, the _Excruciating_ Way".
-- 🧰 [cross-compile-toolkit](https://github.com/goldentooth/cross-compile-toolkit): Containerized cross-compilation toolkit for ARM64 binaries targeting Raspberry Pi cluster
+- ❓ [cluster](https://github.com/goldentooth/cluster): Declarative definition for Goldentooth.
+- 🚜 [terraform](https://github.com/goldentooth/terraform): General Terraform Infrastructure-as-Code for Goldentooth
 - 📉 [p5js-sketches](https://github.com/goldentooth/p5js-sketches): P5.js Sketch Server - Static file server for hosting p5.js sketches on Ceph storage
-- 📡 [httpbin](https://github.com/goldentooth/httpbin): `httpbingo` Argo CD application
-- 📊 [grafana-dashboards](https://github.com/goldentooth/grafana-dashboards): Grafana Dashboards
-- 🏛️ [cert-manager](https://github.com/goldentooth/cert-manager): cert-manager with step-ca ACME integration for Goldentooth Kubernetes cluster
-- 🧲 [metallb](https://github.com/goldentooth/metallb): MetalLB ArgoCD application
-- 📈 [kube-state-metrics](https://github.com/goldentooth/kube-state-metrics): Kubernetes object metrics collection for the goldentooth cluster
-- 🔐 [sealed-secrets](https://github.com/goldentooth/sealed-secrets): SealedSecrets GitOps repository.
-- 🗝️ [external-secrets](https://github.com/goldentooth/external-secrets): GitOps repository for ExternalSecrets
-- 🌐 [external-dns](https://github.com/goldentooth/external-dns): ExternalDNS GitOps repository.
-- 🫀 [pulse](https://github.com/goldentooth/pulse): Node network effects visualized as a heartbeat.
-- 🛣️ [roadmap](https://github.com/goldentooth/roadmap): Planning and researching the future of Goldentooth.
-- 🧬 [gitops-template](https://github.com/goldentooth/gitops-template): A template for my GitOps repositories.
 - 🛡️ [asoiaf-noble-house-images](https://github.com/goldentooth/asoiaf-noble-house-images): Images derived from arms from noble houses of ASoIaF.
 
 
