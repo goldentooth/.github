@@ -11,7 +11,7 @@ Goldentooth is [my](https://github.com/ndouglas/) personal Pi Bramble — a 16-n
 
 That's about as puny as anything with 64 cores and 160 GB RAM could possibly be.
 
-(Also, I have a single x86 "auxiliary" server w/ a GPU for the occasional cross-compilation task.)
+(Also, I have a single amd64 "auxiliary" server w/ a GPU for the occasional cross-compilation/machine learning task.)
 
 It's a sandbox for experimenting with distributed systems, orchestration layers, and failure modes. Services have no purpose but to teach me how they behave under stress, failure, and reconfiguration.
 
@@ -28,9 +28,9 @@ I originally used Ansible and Terraform to manage the IaC for the cluster, but I
 ## 📦 Repositories
 
 - 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
+- 🚜 [terraform](https://github.com/goldentooth/terraform): General Terraform Infrastructure-as-Code for Goldentooth
 - 🧱 [clog](https://github.com/goldentooth/clog): The changelog formerly known as "Kubernetes, the _Excruciating_ Way".
 - 🚜 [gitops](https://github.com/goldentooth/gitops): GitOps repository for Goldentooth Talos cluster
-- 🚜 [terraform](https://github.com/goldentooth/terraform): General Terraform Infrastructure-as-Code for Goldentooth
 - 🏗️ [cluster](https://github.com/goldentooth/cluster): Declarative definition for Goldentooth.
 - 🛡️ [asoiaf-noble-house-images](https://github.com/goldentooth/asoiaf-noble-house-images): Images derived from arms from noble houses of ASoIaF.
 
