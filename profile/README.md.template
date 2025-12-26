@@ -11,7 +11,7 @@ Goldentooth is [my](https://github.com/ndouglas/) personal Pi Bramble — a 16-n
 
 That's about as puny as anything with 64 cores and 160 GB RAM could possibly be.
 
-(Also, I have a single x86 "auxiliary" server w/ a GPU for the occasional cross-compilation task.)
+(Also, I have a single amd64 "auxiliary" server w/ a GPU for the occasional cross-compilation/machine learning task.)
 
 It's a sandbox for experimenting with distributed systems, orchestration layers, and failure modes. Services have no purpose but to teach me how they behave under stress, failure, and reconfiguration.
 
