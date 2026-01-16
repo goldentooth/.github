@@ -21,7 +21,7 @@ I originally used Ansible and Terraform to manage the IaC for the cluster, but I
 
 ---
 
-![My Cluster](./cluster.png)
+![My Cluster](./cluster.jpg)
 
 ---
 
