@@ -1,6 +1,15 @@
 # 🦷 Goldentooth 🦷
 ( <span style="display:inline-block; min-width: 2em;">🌀</span>[ndouglas](https://github.com/ndouglas/) | <span style="display:inline-block; min-width: 2em;">🌉</span>[bitterbridge](https://github.com/bitterbridge/) | <span style="display:inline-block; min-width: 2em;">️‍🔥</span>[hellholt](https://github.com/hellholt/) | <span style="display:inline-block; min-width: 2em;">🦷</span>[goldentooth](https://github.com/goldentooth/) )
 
+| Service | Status | Uptime (7d) |
+|---------|--------|-------------|
+| Kubernetes API | ![Health](https://status.goldentooth.net/api/v1/endpoints/infrastructure_kubernetes-api/health/badge.svg) | ![Uptime](https://status.goldentooth.net/api/v1/endpoints/infrastructure_kubernetes-api/uptimes/7d/badge.svg) |
+| Prometheus | ![Health](https://status.goldentooth.net/api/v1/endpoints/cluster_prometheus/health/badge.svg) | ![Uptime](https://status.goldentooth.net/api/v1/endpoints/cluster_prometheus/uptimes/7d/badge.svg) |
+| Grafana | ![Health](https://status.goldentooth.net/api/v1/endpoints/cluster_grafana/health/badge.svg) | ![Uptime](https://status.goldentooth.net/api/v1/endpoints/cluster_grafana/uptimes/7d/badge.svg) |
+| Step CA | ![Health](https://status.goldentooth.net/api/v1/endpoints/cluster_step-ca/health/badge.svg) | ![Uptime](https://status.goldentooth.net/api/v1/endpoints/cluster_step-ca/uptimes/7d/badge.svg) |
+
+[Full Status Page](https://status.goldentooth.net/)
+
 ---
 
 ## 🧩 What Is Goldentooth?
@@ -29,9 +38,9 @@ I originally used Ansible and Terraform to manage the IaC for the cluster, but I
 
 - 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
 - 🚜 [gitops](https://github.com/goldentooth/gitops): GitOps repository for Goldentooth Talos cluster
-- 🚜 [terraform](https://github.com/goldentooth/terraform): General Terraform Infrastructure-as-Code for Goldentooth
 - 🏗️ [cluster](https://github.com/goldentooth/cluster): Declarative definition for Goldentooth.
 - 🧱 [clog](https://github.com/goldentooth/clog): The changelog formerly known as "Kubernetes, the _Excruciating_ Way".
+- 🚜 [terraform](https://github.com/goldentooth/terraform): General Terraform Infrastructure-as-Code for Goldentooth
 - 🛡️ [asoiaf-noble-house-images](https://github.com/goldentooth/asoiaf-noble-house-images): Images derived from arms from noble houses of ASoIaF.
 
 
