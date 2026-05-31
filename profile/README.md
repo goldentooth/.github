@@ -36,8 +36,8 @@ I originally used Ansible and Terraform to manage the IaC for the cluster, but I
 
 ## 📦 Repositories
 
-- 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
 - 🚜 [gitops](https://github.com/goldentooth/gitops): GitOps repository for Goldentooth Talos cluster
+- 👋 [.github](https://github.com/goldentooth/.github): My ✨special ✨ repository
 - 🚜 [terraform](https://github.com/goldentooth/terraform): General Terraform Infrastructure-as-Code for Goldentooth
 - 🧱 [clog](https://github.com/goldentooth/clog): The changelog formerly known as "Kubernetes, the _Excruciating_ Way".
 - ❓ [theatre](https://github.com/goldentooth/theatre)
